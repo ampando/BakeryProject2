@@ -68,5 +68,14 @@ namespace Bakery.Tests
 
       Assert.AreEqual(frequency, result);
     }
+    [TestMethod]
+    public void GetId_ReturnsOrderId_Int()
+    {
+      Order newOrder = new Order("Test Order", "Test Description", 50, "July 15,2022","Twice a week, Tuesday and Thursday");
+
+      int result = newOrder.Id;
+
+      Assert.AreEqual(1, result);
+    }
     }
   }
