@@ -48,5 +48,16 @@ namespace Bakery.Tests
 
       Assert.AreEqual(price, result);
     }
+    [TestMethod]
+    public void GetDate_ReturnsOrderDate_Int()
+    {
+      string date = "July 15, 2022";
+      Order newOrder = new Order("Test Order", "Test Description", 50, date, "Test Frequency");
+    
+      string result = newOrder.Date;
+
+      Assert.AreEqual(date, result);
+    }
+    
     }
   }
