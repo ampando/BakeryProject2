@@ -38,5 +38,15 @@ namespace Bakery.Tests
 
       Assert.AreEqual(description, result);
     }
+    [TestMethod]
+    public void GetPrice_ReturnsOrderPrice_Int()
+    {
+      double price = 50.00;
+      Order newOrder = new Order("Test Order", "Test Description", price, "Test Date", "Test Frequency");
+
+      double result = newOrder.Price;
+
+      Assert.AreEqual(price, result);
+    }
     }
   }

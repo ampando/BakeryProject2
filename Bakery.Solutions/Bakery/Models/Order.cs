@@ -15,7 +15,7 @@ namespace Bakery.Models
     {
       Title = title;
       Description = description; 
-      Price = price;
+      //Price = price;
       Date = date;
       Frequency = frequency;
       _instances.Add(this);
