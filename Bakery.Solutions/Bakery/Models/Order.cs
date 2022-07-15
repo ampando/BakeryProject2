@@ -19,7 +19,7 @@ namespace Bakery.Models
       Date = date;
       Frequency = frequency;
       _instances.Add(this);
-      Id = _instances.Count;
+      //Id = _instances.Count;
     }
     public static void ClearAll()
     {
