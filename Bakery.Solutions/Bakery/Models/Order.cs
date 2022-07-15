@@ -13,7 +13,7 @@ namespace Bakery.Models
     public int Id { get; set; }
     public Order (string title, string description, double price, string date, string frequency)  
     {
-      Title = title;
+      //Title = title;
       Description = description; 
       Price = price;
       Date = date;
