@@ -58,6 +58,15 @@ namespace Bakery.Tests
 
       Assert.AreEqual(date, result);
     }
-    
+    [TestMethod]
+    public void GetFrequency_ReturnsOrderFrequency_String()
+    {
+      string frequency = "Twice a week, Tuesday and Thursday";
+      Order newOrder = new Order("Test Order", "Test Description", 50, "July 15,2020", frequency);
+
+      string result = newOrder.Frequency;
+
+      Assert.AreEqual(frequency, result);
+    }
     }
   }
