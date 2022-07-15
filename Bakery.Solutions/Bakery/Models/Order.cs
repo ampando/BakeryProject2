@@ -17,7 +17,7 @@ namespace Bakery.Models
       Description = description; 
       Price = price;
       Date = date;
-      //Frequency = frequency;
+      Frequency = frequency;
       _instances.Add(this);
       Id = _instances.Count;
     }
