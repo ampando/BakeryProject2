@@ -28,6 +28,15 @@ namespace Bakery.Tests
 
         Assert.AreEqual(title, result);
     }
-    
+    [TestMethod]
+    public void GetDescription_ReturnsOrderDescription_String()
+    {
+      string description = "Test Description";
+      Order newOrder = new Order("Test Order", description, 50, "Test Date", "Test Frequency");
+
+      string result = newOrder.Description;
+
+      Assert.AreEqual(description, result);
+    }
     }
   }
