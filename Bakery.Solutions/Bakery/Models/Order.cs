@@ -14,7 +14,7 @@ namespace Bakery.Models
     public Order (string title, string description, double price, string date, string frequency)  
     {
       Title = title;
-      Description = description; 
+      //Description = description; 
       Price = price;
       Date = date;
       Frequency = frequency;
