@@ -11,7 +11,7 @@ namespace Bakery.Models
     public Vendor(string vendorName)
     {
       Name = vendorName;
-      //Orders = new List<Order>{};
+      Orders = new List<Order>{};
       _instances.Add(this);
       Id = _instances.Count;
     }
