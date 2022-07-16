@@ -5,7 +5,7 @@ using Bakery.Models;
 
 namespace Bakery.Controllers
 {
-  public class OrderController : Controllers
+  public class OrdersController : Controller
   {
     [HttpGet("/vendors/{vendorId}/orders/new")]
     public ActionResult New(int vendorID)
