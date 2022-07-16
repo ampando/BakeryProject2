@@ -48,6 +48,18 @@ h3 {
   color:coral
 }
 
+/*Vendors and Orders----------------*/
+
+.vendor a {
+  font-size: 25px;
+}
+
+.order a {
+  font-size: 25px;
+}
+
+/*footer-------------------*/
+
 div#footer {
 	position:fixed;
 	bottom:0px;
