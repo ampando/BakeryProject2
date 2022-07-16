@@ -1,0 +1,59 @@
+/* Body-------------------------*/
+body {
+  margin: 50px;
+  font-size: 15px;
+  font-family: 'Merriweather', serif;
+  background-color: peachpuff;
+}
+
+a {
+  font-family: 'Merriweather', serif;
+  font-family: 15px;
+  color:deepskyblue
+}
+
+p {
+  font-size: 20px; 
+}
+
+/*Headers-----------------------*/
+
+h1 {
+  font-size: 50px;
+  font-family: 'Allan', cursive;
+}
+
+h2 {
+  color:teal;
+  font-family: 'Bebas Neue', cursive;
+  font-size: 40px;
+  padding-bottom: 15px;
+}
+
+h3 {
+  padding-bottom: 15px;
+}
+
+/* Splash Page------------------*/
+
+#splash {
+  text-align: center;
+  margin: 100px;
+}
+
+#splash h1 {
+  font-size: 100px;
+  padding: 0;
+  margin-bottom: 20px;;
+  color:coral
+}
+
+div#footer {
+	position:fixed;
+	bottom:0px;
+	left:0px;
+	width:100%;
+	color:#CCC;
+	background:#333;
+	padding:8px;
+}
