@@ -28,11 +28,11 @@ namespace Bakery.Models
     public static List<Order> GetAll()
     {
     return _instances;
-  }
-  public static Order Find(int id)
-  {
+    }
+    public static Order Find(int id)
+    {
     return _instances[id -1];
+    }
   }
-}
 }
 
