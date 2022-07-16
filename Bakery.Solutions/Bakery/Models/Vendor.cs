@@ -12,12 +12,16 @@ namespace Bakery.Models
   {
     Name = vendorName;
     Orders = new List<Order>{};
-    _instances.Add(this);
+    //_instances.Add(this);
     Id = _instances.Count;
   }
   public static void ClearAll()
   {
     _instances.Clear();
+  }
+  public static List<Vendor> GetAll()
+  {
+    return _instances;
   }
 
   }
